@@ -15,13 +15,13 @@
 
 ## Overview
 
-The **RC Car Controller App** is a **Flutter application** designed to provide remote control capabilities for **RC cars** equipped with **ESP8266 microcontrollers**. It offers intuitive control modes, including:
+The **RC Car Controller App** is a **Flutter application** designed to provide remote control capabilities for **RC cars** equipped with **ESP8266 or ESP32 microcontrollers**. It offers intuitive control modes, including:
 
 - **Button Control Mode:** Navigate and steer the RC car using on-screen buttons for precise directional commands.
 - **Gyroscope Control Mode:** Utilize the device's gyroscope sensor to intuitively control the RC car by tilting the device in the desired direction.
 - **HTTP Communication:** Communicate with the RC car over HTTP protocol, ensuring real-time responsiveness and control.
 - **Customizable Interface:** Customize the control interface to suit individual preferences and operational needs.
-- **Compatibility:** Designed to work with RC cars equipped with ESP8266 microcontrollers, ensuring compatibility and ease of integration.
+- **Compatibility:** Designed to work with RC cars equipped with ESP8266, ESP32 and can be easily modified to suit other microcontrollers, ensuring compatibility and ease of integration.
 
 ## Installation
 
@@ -31,10 +31,12 @@ The **RC Car Controller App** is a **Flutter application** designed to provide r
 4. **Connect your device** and **run the app** using `flutter run`.
 
 ## Usage
-
+- **Upload the arduino code into your ESP** with your desired config.
+- **Connect to the same network as the RC car**.
 - **Launch the app** on your device.
-- **Connect to the RC car's Wi-Fi network**.
+- **Insert the IP address of the ESP** on the first screen.
 - **Select the desired control mode** (button or gyroscope).
+- **Don't forget to adjust the speed**.
 - **Begin controlling the RC car** using the on-screen controls or device's gyroscope.
 
 ## Contribution
@@ -43,9 +45,9 @@ The **RC Car Controller App** is a **Flutter application** designed to provide r
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE]([LICNSE](https://github.com/chater-marzougui/Flutter-Car-Control_Http/tree/main?tab=MIT-1-ov-file#MIT-1-ov-file)) file for details.
 
 ## Credits
 
-- **Developer:** [Chater Marzougui]
-- **Contact:** [chater.mrezgui2002@gmail.com]
+- **Developer:** Chater Marzougui
+- **Contact:** chater.mrezgui2002@gmail.com
