@@ -8,8 +8,8 @@
 </div>
 <div style="display:flex;justify-content:space-around;align-content:center">
     <div style="display:flex;flex-direction:column;justify-content:center;align-content:center">
-        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/9ff37469-6856-41a1-a44a-4f0953723a98" alt="Control page with Buttons" width="600">
-        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/ff1bf360-299c-4749-a266-bbd610b9b754" alt="Control page with Gyroscope" width="600">
+        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/9ff37469-6856-41a1-a44a-4f0953723a98" alt="Control page with Buttons" width="500">
+        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/ff1bf360-299c-4749-a266-bbd610b9b754" alt="Control page with Gyroscope" width="500">
     </div>
 </div>
 ## Overview
