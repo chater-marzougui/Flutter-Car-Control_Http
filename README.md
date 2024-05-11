@@ -1,18 +1,17 @@
 # RC Car Controller App
 
-<div style="display:flex;justify-content:center;align-content:center">
-    <div style="display:flex;justify-content:center;align-content:center">
-        <img src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/3eed48a5-8027-4a20-8eb1-1da6bdec3ec7" alt="Ip Address Page" height="300">
-
-<div style="display:flex;flex-direction:column;justify-content:center;align-content:center">
-	<img src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/dff51ca6-d796-4e8c-bdcf-eb83bcf55f19" alt="Control page with Buttons" height="200" width='auto'>
-	<img src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/944b4221-e47f-4163-865d-ec384f144676" alt="Control page with Gyroscope" height="200">
-</div>        
-<img src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/c599d39f-90e4-4ac7-bb82-43369d3216d7" alt="Feature to make the esp8266 Change the wifi it is connected to" height="300">
+<div style="display:flex;justify-content:space-around;align-content:center">
+    <div style="display:flex;justify-content:space-around;align-content:center">
+        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/2b332c53-7e2f-4b3a-8dcb-18d2924bdbb7" alt="Ip Address Page" height="400">    
+        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/91afe71e-8a39-427f-affe-d9f6194e69c8" alt="Feature to make the esp8266 Change the wifi it is connected to" height="400">
+    </div> 
+</div>
+<div style="display:flex;justify-content:space-around;align-content:center">
+    <div style="display:flex;flex-direction:column;justify-content:center;align-content:center">
+        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/9ff37469-6856-41a1-a44a-4f0953723a98" alt="Control page with Buttons" width="600">
+        <img style="padding:20px;" src="https://github.com/chater-marzougui/Flutter-Car-Control_Http/assets/151965388/ff1bf360-299c-4749-a266-bbd610b9b754" alt="Control page with Gyroscope" width="600">
     </div>
 </div>
-
-
 ## Overview
 
 The **RC Car Controller App** is a **Flutter application** designed to provide remote control capabilities for **RC cars** equipped with **ESP8266 or ESP32 microcontrollers**. It offers intuitive control modes, including:
@@ -29,6 +28,11 @@ The **RC Car Controller App** is a **Flutter application** designed to provide r
 2. **Navigate to the project directory**.
 3. **Run `flutter pub get`** to install dependencies.
 4. **Connect your device** and **run the app** using `flutter run`.
+
+## Arduino Code Repo:
+
+  ### [ESP8266-Car-Control_Http](https://github.com/chater-marzougui/ESP8266-Car-Control-with-http)
+
 
 ## Usage
 - **Upload the arduino code into your ESP** with your desired config.
